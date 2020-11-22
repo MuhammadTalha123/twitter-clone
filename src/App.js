@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="twitter"></div>
+    <div className="twitter">
+      <Sidebar />
+    </div>
   );
 }
 
