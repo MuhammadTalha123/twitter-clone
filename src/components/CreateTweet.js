@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   FaRegImage,
   FaRegListAlt,
@@ -6,6 +6,17 @@ import {
   FaCalendarCheck,
 } from "react-icons/fa";
 const CreateTweet = () => {
+
+  const [name, setName] = useState("");
+
+  function tweet(e) {
+    setName(e.target.value);
+  }
+
+  function tweetSubmit() {
+    alert("Your Tweet is " + name);
+  }
+
   return (
     <div className="create">
       <div className="create__first">
@@ -17,6 +28,7 @@ const CreateTweet = () => {
             type="text"
             className="create__control"
             placeholder="What's happing?"
+            onChange={tweet}
           />
         </div>
       </div>
@@ -28,7 +40,7 @@ const CreateTweet = () => {
           <FaCalendarCheck className="ic" />
         </div>
         <div className="create__btn">
-          <a href="">Tweet</a>
+          <a href="" onClick={tweetSubmit}>Tweet</a>
         </div>
       </div>
     </div>
