@@ -11,13 +11,13 @@ const TrendsKeyword = () => {
     {
       id: 2,
       country: "Trend in Pakistan",
-      keyword: "IMRANKAHN",
+      keyword: "IMRAN KHAN",
       totalKeywords: "6000k",
     },
     {
       id: 3,
       country: "Trend in Pakistan",
-      keyword: "YoutubeinPakistan",
+      keyword: "Youtubein Pakistan",
       totalKeywords: "2560k",
     },
   ]);

@@ -270,7 +270,7 @@ body {
 
 .country {
   font-size: 14px;
-  color: silver;
+  color: rgb(117, 114, 114);
   font-weight: 300;
   margin: 10px 0;
 }
@@ -281,7 +281,7 @@ body {
 
 .keyword__tweets {
   margin-top: 7px;
-  color: silver;
+  color: rgb(153, 148, 148);
   font-size: 14px;
   font-weight: 300;
 }
