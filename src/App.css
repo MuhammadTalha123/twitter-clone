@@ -311,4 +311,20 @@ body {
   .keywords {
     padding: 20px 10px;
   }
+
+  .keyword__heading{
+    font-size: 17px;
+  }
+
+  .country{
+    font-size: 13px;
+  }
+
+  .keyword__name{
+    font-size: 13px;
+  }
+
+  .keyword__tweets{
+    font-size: 13px;
+  }
 }
