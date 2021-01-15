@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  width: fit-content;
 }
 
 .tiwtter {
@@ -62,7 +63,7 @@ body {
   outline: none;
   display: block;
   text-align: center;
-}
+} 
 
 /* Posts style */
 .posts {
@@ -284,4 +285,30 @@ body {
   color: rgb(153, 148, 148);
   font-size: 14px;
   font-weight: 300;
+}
+
+@media screen and (max-width:900px){
+  .sidebar ul li a {
+    font-size: 14px;
+  }
+
+  .icons {
+    font-size: 16px;
+  }
+
+  .posts__first__name {
+    font-size: 14px;
+  }
+
+  .posts__first__username {
+    font-size: 14px;
+  }
+
+  .postss__details__msg{
+    font-size: 13px;
+  }
+
+  .keywords {
+    padding: 20px 10px;
+  }
 }

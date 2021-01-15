@@ -22,10 +22,7 @@ const Posts = () => {
       </div>
       <div className="postss__details">
         <div className="postss__details__msg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima id
-          iure, enim pariatur ullam eligendi vero possimus ad error nemo. Facere
-          aliquid dolores placeat vitae accusamus excepturi officiis magnam
-          pariatur?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
         <div className="postss__details__img">
           <img src="/images/post.jpg" alt="post" />
