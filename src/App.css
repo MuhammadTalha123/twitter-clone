@@ -369,4 +369,34 @@ body {
   .posts__home{
     width: 65%;
   }
+
+  .posts__home h1 {
+    font-size: 16px;
+  }
+  
+  .posts__home h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .sidebar ul li a {
+    font-size: 13px;
+  }
+
+  .icons {
+    font-size: 16px;
+  }
+
+  .posts__first__name {
+    font-size: 13px;
+  }
+
+  .posts__first__username {
+    font-size: 13px;
+  }
+
+  .postss__details__msg{
+    font-size: 12px;
+  }
 }
