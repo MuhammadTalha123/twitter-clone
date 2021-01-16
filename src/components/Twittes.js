@@ -4,7 +4,11 @@ import Posts from "./Posts";
 const Twittes = () => {
   return (
     <div className="posts">
-      <div className="posts__home">Home</div>
+      <div className="posts__home">
+        <h1 className="home">Home</h1> 
+        <h2 className="trend">Trends</h2>
+        <h2 className="links">About</h2>
+      </div>
       <CreateTweet />
       <Posts />
       <Posts />
