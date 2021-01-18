@@ -1,6 +1,8 @@
 import React from "react";
 import CreateTweet from "./CreateTweet";
 import Posts from "./Posts";
+import Trends from "./Trends";
+
 const Twittes = () => {
   return (
     <div className="posts">
