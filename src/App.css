@@ -351,10 +351,21 @@ body {
 @media screen and (max-width:750px){
   .trends{
     display: none;
+    margin-left: 0;
+    width: 50%;
   }
 
   .trend {
     display: block;
+  }
+
+  .trends__search {
+    display: none;
+  }
+
+  .keywords {
+    width: 50%;
+    transform: translate(10px, -51px);
   }
 
   .sidebar{
@@ -402,6 +413,11 @@ body {
 }
 
 @media screen and (max-width:500px){
+  .keywords {
+    width: 60%;
+    transform: translate(10px, -51px);
+  }
+
   .sidebar{
     display: none;
   }

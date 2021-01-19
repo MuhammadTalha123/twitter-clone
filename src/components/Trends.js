@@ -3,7 +3,6 @@ import { FaSistrix } from "react-icons/fa";
 import TrendsKeyword from "./TrendsKeyword";
 
 const Trends = () => {
-  // var x = document.getElementsByClassName("trends");
   return (
     <div className="trends">
       <div className="trends__search">
@@ -20,14 +19,5 @@ const Trends = () => {
     </div>
   );
 };
-
-// export const trendFun = () => {
-//   var x = document.getElementsByClassName("trends")};
-  // if (x.style.display === "none") {
-  // x.style.display = "block";
-  // } else {
-  // x.style.display = "none";
-  // alert(123);
-  // }
 
 export default Trends;

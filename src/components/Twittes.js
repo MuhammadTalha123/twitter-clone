@@ -4,16 +4,14 @@ import Posts from "./Posts";
 import Trends from "./Trends";
 
 const Twittes = () => {
+  var x = document.getElementsByClassName("trends");
   const trendFun = () => {
-    // var x = document.getElementsByClassName("trends");
-    // var y = x.item("className")
-    // if (y.style.display === "block") {
-    //   y.style.display = "none";
-    //   y.style.width = "300px";
-    // } else {
-    //   y.style.display = "block";
-    // }
-    alert("Wellcome to trend section");
+    var y = x.item("className")
+    if (y.style.display === "block") {
+      y.style.display = "none";
+    } else {
+      y.style.display = "block";
+    }
   }
 
   const aboutFun = () => {
