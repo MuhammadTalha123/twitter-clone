@@ -420,6 +420,8 @@ body {
 
   .sidebar{
     display: none;
+    background: #fff;
+    width: 60%;
   }
 
   .posts{
