@@ -8,25 +8,19 @@ const Twittes = () => {
   var a = document.getElementsByClassName("sidebar");
   const trendFun = () => {
     var y = x.item("className")
-    // var b = a.item("className")
-    if (y.style.display === "block") {
-      y.style.display = "none";
-      // b.style.display = "block"
+    if (y.style.display === "none") {
+      y.style.display = "block";
     } else {
       y.style.display = "block";
-      // b.style.display = "none"
     }
   }
 
   const aboutFun = () => {
     var b = a.item("className")
-    // var y = x.item("className")
-    if (b.style.display === "block") {
-      b.style.display = "none";
-      // y.style.display = "block";
+    if (b.style.display === "none") {
+      b.style.display = "block";
     } else {
       b.style.display = "block";
-      // y.style.display = "none";
     }
   }
 
